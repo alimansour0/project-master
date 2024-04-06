@@ -1,0 +1,43 @@
+/* google font   */
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+    /* secma  */
+
+    * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    }
+
+    /* start container */
+
+    .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    @media (min-width:768px) {
+    .container {
+    width: 750px;
+    }
+    }
+
+    @media (min-width:992px) {
+    .container {
+    width: 970px;
+    }
+    }
+
+    @media (min-width:1200px) {
+    .container {
+    width: 1170px;
+    }
+    }
+
+    /* end container */

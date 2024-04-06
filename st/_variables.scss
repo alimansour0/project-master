@@ -1,0 +1,15 @@
+/* root element */
+$color-main: #10cab7;
+$padding-top: 60px;
+$padding-bottom: 60px;
+$background-main: #F4EDCC;
+$color: #fafafa;
+/* root element */
+
+@function text-color($color){
+@if (lightness($color)>70%){
+@return #333;
+}@else {
+@return #fff;
+}
+}
